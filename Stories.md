@@ -102,4 +102,178 @@ Validar pago del servicios prestado
 ---
 
 ---
+|HISTORIA DE USUARIO | NO.6 |
+| ----------- | ----------- |
+| Usuario | Administrador|
+| Nombre Historia  | Creacion de usuarios |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
 
+Como administrador del sistema, requiero crear usuarios para que los encargados del parqueadero ingresen y usen el sistema
+
+
+## Validacion 
+
+El usuario debe ingresar con usuario y contraasena la sistema, validados por la coincidencia en los datos registrados en el sistema 
+(numero de cedual y contrasena)
+
+
+|HISTORIA DE USUARIO | NO.7 |
+| ----------- | ----------- |
+| Usuario | Administrador|
+| Nombre Historia  | Creacion de roles |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como administrador del sistema, requiero crear  roles de usuarios para establecer permisos y usos del sistema
+
+## Validacion 
+
+Rol Administrador  en el sistema 
+Rol usuario en el sistema (encargado del parqueadero)
+
+---
+|HISTORIA DE USUARIO | NO.8 |
+| ----------- | ----------- |
+| Usuario | Administrador|
+| Nombre Historia  | Actualizacion de usuarios  |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como administrador del sistema, requiero actualizar la informacion de los encargados del parqueadero para cusodiar 
+la informacion veridica y real.
+
+
+## Validacion 
+
+El sistem permitira cambiar datos  de los usuarios encargados. 
+---
+
+
+|HISTORIA DE USUARIO | NO.9 |
+| ----------- | ----------- |
+| Usuario | Administrador|
+| Nombre Historia  | Creacion estados de usuarios  |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como administrador del sistema, requiero crear estados de usuarios para validar quien esta activo o inactivo en el sistema 
+
+
+## Validacion 
+
+Los usuarios inactivos no podran ingresar al sistema 
+Los uaurios activos podran  ingresar y usar el sistema acorde con sus credenciales. 
+
+---
+
+
+|HISTORIA DE USUARIO | NO.10 |
+| ----------- | ----------- |
+| Usuario | usuarios encargado del parqueadero|
+| Nombre Historia  | Acceso al sistema |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como encargado del parqueadero, requiero que el sistema me permita ingresar al sistema 
+
+## Validacion 
+
+Logueo exitoso, datos de usuaro y contrsena coinciden con los reportados en el sistema. 
+
+
+---
+
+
+|HISTORIA DE USUARIO | NO.11 |
+| ----------- | ----------- |
+| Usuario | usuarios encargado del parqueadero|
+| Nombre Historia  | Consultar disponibilidad de celda |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como encargado del parqueadero, quiero ver la disponibilidad de celdas  en el sistema, para asignar celdas a vehiculos que ingresen. 
+
+## Validacion 
+
+Alerta del sistema que indique que se agotaron las celdas disponibles.  
+
+
+
+|HISTORIA DE USUARIO | NO.12 |
+| ----------- | ----------- |
+| Usuario | usuarios encargado del parqueadero|
+| Nombre Historia  | Cambio de estado de celdas |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como encargado del parqueadero, debo modificar el estado de las celdas cuando ingrese o salga un vehiculo del parqueadero para liberar 
+u ocupar las celdas del inventario de celdas. 
+
+## Validacion 
+
+Estados de celdas creados y dispuestos para cambiar su estado (disponible, Ocupado, No disponible)
+Las celdas ocupadas por contratos mensuales, deberan aparecer no disponibles. 
+
+
+|HISTORIA DE USUARIO | NO.13 |
+| ----------- | ----------- |
+| Usuario | Administrador |
+| Nombre Historia  | Creacion plantilla inventario de celdas |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como administrador del sistema, debo crear la plantilla deinventario de celdas  para que las celdas puedan ser creadas e identificadas, y
+el usuario encargado modificar su estado.
+
+## Validacion 
+
+Plantilla de celdas creadas
+
+|HISTORIA DE USUARIO | NO.14 |
+| ----------- | ----------- |
+| Usuario | Administrador |
+| Nombre Historia  | Creacion de celdas |
+| Prioridad en negocio | 1 |
+| Riesgo en desarrollo | medio |
+| Puntos estimados | |
+| Iteracion asignada | 2 |
+| Programador Responsable | Vanesa |
+## Descripcion 
+
+Como administrador del sistema, debo crear las celdas para alimentar la plantilla de inventario de celdas y que estas sean usadas. 
+
+## Validacion 
+Celdas creadas en la plantilla de inventario de celdas. 
