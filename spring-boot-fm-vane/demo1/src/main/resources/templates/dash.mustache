@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>ParqueaderoColombia</title>
+  </head>
+
+  <body>
+    {{! Encabezado con mensajes }}
+    <h1> <a href="/dashboard"> ParqueaderoColombia </a></h1>
+    <h2>
+      {{ color }}
+    </h2>
+    <h2>
+      {{ result }}
+    </h2>
+    <hr />
+
+    {{! Formulario ingreso vehiculo }}
+    <h3>Ingreso Vehiculo</h3>
+    <form action="/ingresovehiculo">
+      <label for="placa">Numero de placa:</label><br />
+      <input type="text" id="placa" name="placa" value="" /><br /><br />
+      <input type="submit" value="Ingresar Vehiculo" />
+    </form>
+    <hr />
+
+    {{! Formulario ingreso vehiculo }}
+    <h3>Salida Vehiculo</h3>
+    <p>
+      Seleccione el vehiculo que esta egresando del parqueadero automaticamente
+      se generara la respectiva liquidacion:
+    </p>
+    <br />
+
+    {{#_placas_}}
+    <h2>
+      <a href="/salidavehiculo?placa={{.}}">{{.}}</a>
+    </h2>
+    {{/_placas_}}
+    <hr />
+    
+    {{! Formulario Nueva Mensualidad }}
+    <h3>Registrar Nueva Mensualidad</h3>
+    <form action="/ingresarmensualidad">
+      <label for="placaMensualidad">Ingrese placa para mensualidad:</label><br />
+      <input type="text" id="placamensualidad" name="placaMensualidad" value="" /><br /><br />
+      <label for="cantDiasV">Cantidad de dias para vencimiento:</label><br />
+      <input type="text" id="cantDiasV" name="cantDiasV" value="" /><br /><br />
+      <input type="submit" value="Registrar Mensualidad" />
+    </form>
+    <hr />
+
+    {{! Formulario Configuracion Celda }}
+    <h3>Configuracion Celda</h3>
+    <form action="/configuracioncelda">
+      <label for="cantDiasV">Cantidad de celdas:</label><br />
+      <input type="text" id="cantDiasV" name="cantDiasV" value="" /><br /><br />
+      <input type="submit" value="actualizar cantidad de celdas" />
+    </form>
+    <hr />
+
+    {{! Formulario Configuracion usuarios }}
+    <h3>Configuracion usuarios</h3>
+    <form action="/configuracionusuarios">
+      <label for="cantDiasV">Clave Administrador:</label><br />
+      <input type="text" id="cantDiasV" name="cantDiasV" value="" /><br /><br />
+      <input type="submit" value="Cambiar Clave Administrador" />
+    </form>
+    <hr />
+
+    {{!
+    <h3>Agregar porpietario</h3>
+    <form action="/agregarpropietario">
+      <label for="cc">Cedula:</label><br />
+      <input type="text" id="propcc" name="propcc" value="" /><br />
+      <input type="submit" value="Agregar Propietario" />
+    </form>
+    }}
+  </body>
+</html>

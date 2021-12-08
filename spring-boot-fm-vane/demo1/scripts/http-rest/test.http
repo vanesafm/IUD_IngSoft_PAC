@@ -1,0 +1,36 @@
+###
+GET http://localhost:8080 HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/login HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/dashboard HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/dash HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/index.html HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/greeting HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/customer HTTP/1.1
+content-type: application/json
+
+
+###
+GET http://localhost:8080/addSomeCustomers HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:8080/customers HTTP/1.1
+content-type: application/json
